@@ -1,0 +1,89 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Java/Kotlin compiled files
+*.class
+
+# Gradle files
+.gradle/
+build/
+*/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.ipr
+*.iws
+
+# Keystore files (VERY IMPORTANT - never upload)
+*.jks
+*.keystore
+
+# Signing configs
+signing.properties
+
+# Log files
+*.log
+
+# Android Studio captures
+captures/
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Google Services (optional - depends if contains secrets)
+google-services.json
+
+# Firebase / Crashlytics
+fabric.properties
+firebase.json
+
+# Proguard
+proguard/*.txt
+
+# Navigation Safe Args
+.navigation/
+
+# Room database schema (optional)
+schemas/
+
+# NDK
+obj/
+lib/
+
+# OS generated files
+Thumbs.db
+
+# Kotlin/Java temporary files
+*.tmp
+*.temp
+
+# Test outputs
+test-output/
+
+# Gradle wrapper logs
+gradle-app.setting
+
+# IntelliJ caches
+out/
+
+# KSP (Kotlin Symbol Processing)
+ksp/
