@@ -70,6 +70,8 @@ dependencies {
     implementation(libs.hilt.navigation.compose)
     ksp(libs.hilt.compiler)
 
+    // splash Api
+    implementation(libs.androidx.core.splashscreen)
 
     implementation(project(":data"))
     implementation(project(":domain"))
